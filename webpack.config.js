@@ -7,7 +7,7 @@ module.exports = {
   module: {
     loaders: [
       { test: /\.coffee$/, loader: "coffee-loader" },
-      { test: /\.cjsx$/, loader: "coffee-jsx-loader" }
+      { test: /\.cjsx$/, loader: "cjsx-loader" }
     ]
   },
   plugins: [
