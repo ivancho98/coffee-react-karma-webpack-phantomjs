@@ -2,7 +2,7 @@ var RewirePlugin = require('rewire-webpack');
 
 module.exports = {
   resolve: {
-    extensions: ['', '.coffee', '.cjsx', '.js', '.coffee.cjsx']
+    extensions: ['', '.coffee', '.cjsx', '.js']
   },
   module: {
     loaders: [
